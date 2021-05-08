@@ -1,1 +1,3 @@
-$('#searchmenu').load('menu.html');
+$('#searchmenu').load('menu.html' function() {
+	alert('Load was performed');
+});
